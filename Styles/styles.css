@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    background-color: #191919;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-left: 15px;
+}
+
+.navbar {
+    margin-left: 0px;
+}
+
+.navbar a{
+    color: white;
+}
+
+.logoflor {
+    width: 130px;
+    height: 130px;
+    display: inline-flex;
+}
+
+main {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+h2 {
+    margin-bottom: 60px;
+}
+
+.container {
+    margin: 0px;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotoperfil {
+    max-width: 100%;
+    height: auto;
+}
+
+.logochico {
+    width: 40px;
+    height: 40px;
+}
+
+.footer {
+    display: flex;
+    justify-content: end;
+}
+  
+.logoflor,
+.copyright,
+.logochico {
+    margin: 0
+}  
+
+.footer-content {
+    display: flex;
+    align-items: center;
+}
+
+.copyright {
+    margin-left: 10px;
+}
+
+footer {
+    background-color: beige;
+    color: #191919;
+}
+
+header {
+    background-color: beige;
+}
+
+.navbar-nav .nav-link {
+    color: #191919;
+}
