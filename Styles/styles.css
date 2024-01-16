@@ -7,18 +7,13 @@ body{
     margin-left: 15px;
 }
 
-.navbar {
-    margin-left: 0px;
-}
-
 .navbar a{
     color: white;
 }
 
 .logoflor {
     width: 130px;
-    height: 130px;
-    display: inline-flex;
+    height: 130px;    
 }
 
 main {
@@ -52,14 +47,7 @@ h2 {
 
 .footer {
     display: flex;
-    justify-content: end;
-}
-  
-.logoflor,
-.copyright,
-.logochico {
-    margin: 0
-}  
+} 
 
 .footer-content {
     display: flex;
@@ -67,7 +55,8 @@ h2 {
 }
 
 .copyright {
-    margin-left: 10px;
+    margin-left: 20px;
+    padding-top: 15px;
 }
 
 footer {
@@ -81,4 +70,29 @@ header {
 
 .navbar-nav .nav-link {
     color: #191919;
+}
+
+.card {
+    width: 18rem;
+    display: inline-flex;
+    margin: 25px;
+}
+
+.card-body {
+    background-color: beige;
+}
+
+.btn {
+    border: 2px solid black;
+}
+
+.footer-logos {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Add this line to align items to the far right */
+}
+
+.redes{
+    margin-right: 15px;
+
 }
