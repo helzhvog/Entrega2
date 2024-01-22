@@ -39,6 +39,25 @@
                 </div>
             </nav>  
         </header>
+
+        <main>
+            <div class="container">
+                <h3>Envianos tu consulta</h3>
+                <form action="submit_form.php" method="post">
+                    <textarea id="message" name="message" rows="10" cols="30"></textarea>
+                    
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+        
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+        
+                    
+        
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </main>
     
     
         <footer>
