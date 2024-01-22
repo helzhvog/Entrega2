@@ -89,10 +89,14 @@ header {
 .footer-logos {
     display: flex;
     align-items: center;
-    justify-content: flex-end; /* Add this line to align items to the far right */
+    justify-content: flex-end;
 }
 
 .redes{
     margin-right: 15px;
 
+}
+
+#boton-enviar {
+    margin-top: 10px;
 }
