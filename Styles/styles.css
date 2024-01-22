@@ -133,3 +133,10 @@ header {
     }
 
 }
+
+@media (min-width: 500px) {
+    .flex-md-half {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
