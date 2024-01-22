@@ -100,3 +100,36 @@ header {
 #boton-enviar {
     margin-top: 10px;
 }
+
+.texto-tesis {
+    font-size:20px;
+    margin-bottom: 10px;
+    text-align: center;
+        
+}
+
+@media screen and (min-width: 1300px) {
+    .texto-tesis {
+        max-width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+
+    .iframe-tesis {
+        height:500px ;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+
+    .iframe-tesis {
+        height:300px ;
+    }
+
+}
