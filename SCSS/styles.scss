@@ -1,7 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
   background-color: #191919;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: white;
   margin-left: 15px;
 }
@@ -29,9 +36,7 @@ h2 {
 }
 
 .col {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex-center;
   flex-direction: column;
 }
 
@@ -49,7 +54,7 @@ h2 {
   background-color: beige;
   color: #191919;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; 
   align-items: center;
   margin-bottom: 0px;
 }
@@ -152,33 +157,38 @@ header {
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 1000px) {
   .iframe-tesis {
     height: 500px;
   }
 }
+
 @media screen and (max-width: 768px) {
   .iframe-tesis {
     height: 300px;
   }
 }
+
 @media (min-width: 500px) {
   .flex-md-half {
     flex: 0 0 50%;
     max-width: 50%;
   }
 }
+
 .heroimg {
   width: 100%;
   height: auto;
   margin-bottom: 30px;
 }
 
+
 section .cards-proyectos {
-  justify-items: space-around;
-  display: flex;
-  margin: 0 auto;
-  flex-wrap: wrap;
+    justify-items: space-around;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 .main-proyectos {
@@ -194,4 +204,3 @@ section .cards-proyectos {
   margin: 0 auto;
 }
 
-/*# sourceMappingURL=styles.css.map */
