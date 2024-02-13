@@ -41,22 +41,75 @@
         </header>
 
         <main>
-            <div>
-                <h3>Envianos tu consulta</h3>
-                <form>
-                    <textarea id="message" name="message" rows="10" cols="30"></textarea>
-                    
-                    <div class="container">
-                        <label for="name">Nombre:</label>
-                        <input class="row" type="text" id="name" name="name" required>
-                        
-                        <label for="email">Correo electrónico:</label>
-                        <input class="row" type="email" id="email" name="email" required>
-        
-                        <input class="row" id="boton-enviar" type="submit" value="Enviar">
+            <img src="../Assets/Muralla Roja.png" alt="" class="heroimg">
+            
+            <section>
+                <h1 class="FAQ-texto">Preguntas Frecuentes</h1>
+                <div class="accordion">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button"      data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      ¿Hacen presupuestos para obra?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" >
+                        <div class="accordion-body">
+                            ¡Si! Hacemos presupuestos para obras nuevas o remodelaciones, ponete en contacto a través de nuestro formulario para ver tu caso puntual.
+                        </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                        <button class="accordion-button collapsed"  type="button" data-bs-toggle="collapse"     data-bs-target="#collapseTwo" aria-expanded="false"         aria-controls="collapseTwo">
+                        ¿Tienen servicio de renders/visualizaciones?
+                        </button>
+                  </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Obvio! Podés encontrar algunas muestras en la sección de visualizaciones, si querés averiguar para tu proyecto ponete en contacto y lo vemos!
+                        </div>
                     </div>
-                </form>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        ¿Hacen dirección de obra, o solo la parte de proyecto?
+                         </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Podemos encargarnos de ambas partes o de cualquiera de las dos unicamente, dependiendo de lo que necesites. En caso de hacer dirección de obra nos provee de personal y logística la empresa constructora Bahía Urbana, que lleva más de 20 años construyendo en la ciudad con más de 20 edificios construidos.
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-6 d-flex justify-content-center align-items-center flex-column">
+                        <h2 class="titulo-horarios">Horarios de atención</h2>
+                        <p class="texto-horarios">Podes encontrarnos de Lunes a Viernes de 9:00 a 18:00 en nuestras redes o en nuestra oficina en Castelli 170, Bahía Blanca.</p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3112.882852790017!2d-62.27495128759304!3d-38.72049848628588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbcb046f894e1%3A0x9624ba8c0317635c!2sAID%2C%20Castelli%20170%2C%20B8000%20Bah%C3%ADa%20Blanca%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1707839946018!5m2!1sen!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="d-flex justify-content-center align-items-center flex-column" >
+                            <h2 class="texto-consulta">¿Tenés alguna consulta particular? Envianosla y nos pondremos en contacto</h2>
+                            <form class="formulario">
+                                <textarea id="message" name="message" rows="10" cols="30"></textarea>
+                                <div class="container">
+                                    <label for="name">Nombre:</label>
+                                    <input class="row" type="text" id="name" name="name" required>
+                                    <label for="email">Correo electrónico:</label>
+                                    <input class="row" type="email" id="email" name="email" required>
+                                    <input class="row" id="boton-enviar" type="submit" value="Enviar">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
+            
         </main>
     
     
