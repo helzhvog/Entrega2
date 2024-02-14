@@ -241,5 +241,11 @@ header {
     width: calc(100vw - 10px);
   }
 }
+@media screen and (max-width: 650px) {
+  iframe {
+    width: 90%;
+    height: auto;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
