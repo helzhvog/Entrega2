@@ -77,6 +77,7 @@ h2 {
 footer {
   background-color: beige;
   color: #191919;
+  width: 100%;
 }
 
 header {
@@ -196,16 +197,6 @@ header {
   margin-bottom: 30px;
 }
 
-.main-verbena {
-  margin-bottom: 300px;
-  margin-top: 100px;
-}
-
-.main-casas {
-  margin-bottom: 100px;
-  margin-top: 100px;
-}
-
 .cards-proyectos {
     justify-content: space-around;
     display: flex;
@@ -239,3 +230,25 @@ header {
   text-align: center;
 }
 
+.carousel-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 550px) and (max-width: 768px) {
+  .carousel-item img {
+    width: calc(100vw - 30px);
+  }
+}
+
+@media (max-width: 550px) {
+  .carousel-item img {
+    width: calc(100vw - 20px);
+  }
+}
+
+@media (max-width: 350px) {
+  .carousel-item img {
+    width: calc(100vw - 10px);
+  }
+}
