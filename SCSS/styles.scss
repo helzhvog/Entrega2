@@ -47,9 +47,14 @@ h2 {
 
 .logochico {
   width: 40px;
-  height: 40px;
+  height: auto;
 }
 
+@media only screen and (max-width: 500px) {
+  .logochico {
+      width: 25px;
+  }
+}
 .footer {
   background-color: beige;
   color: #191919;
