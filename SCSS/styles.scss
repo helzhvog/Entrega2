@@ -121,6 +121,10 @@ header {
   text-align: center;
 }
 
+.texto.intro {
+  text-align: justify;
+}
+
 .titulo-horarios {
   margin-bottom: 30px;
   text-align: center;
@@ -132,6 +136,10 @@ header {
 
 .formulario {
   justify-items: center;
+}
+
+#texto-renders {
+  font-size: 18px;
 }
 
 .accordion-item {
@@ -183,24 +191,46 @@ header {
   margin-bottom: 30px;
 }
 
+.main-verbena {
+  margin-bottom: 300px;
+  margin-top: 100px;
+}
 
-section .cards-proyectos {
-    justify-items: space-around;
+.main-casas {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.cards-proyectos {
+    justify-content: space-around;
     display: flex;
     margin: 0 auto;
     flex-wrap: wrap;
-}
-
-.main-proyectos {
-  margin-bottom: 200px;
 }
 
 .titulo-container {
   text-align: center;
 }
 
+.titulo-proyectos {
+  margin-top: 15pxtet;
+}
+
+.subtitulo-container {
+  text-align: center;
+}
+
 .carousel {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.subtitulo {
+  font-size: 22px;
+}
+
+.subtitulo-container2 {
+  margin-top: 20px;
+  text-align: center;
 }
 
